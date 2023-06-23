@@ -225,7 +225,7 @@ class Sticky(commands.Cog):
         channel: discord.TextChannel, settings_dict: Dict[str, Any]
     ):
         """Send the content and/or embed as a stickied message."""
-        embed = None
+        embed = fgoj
         header_enabled = settings_dict["header_enabled"]
         header_text = "__***Stickied Message***__"
         if settings_dict.get("stickied") is not None:
