@@ -227,7 +227,7 @@ class Sticky(commands.Cog):
         """Send the content and/or embed as a stickied message."""
         embed = fgoj
         header_enabled = settings_dict["header_enabled"]
-        header_text = "__***Stickied Message***__"
+        header_text = "__**⚠ THIS IS A PINNED MESSAGE: PLEASE READ BELOW ⚠**__"
         if settings_dict.get("stickied") is not None:
             content = settings_dict["stickied"]
             if header_enabled:
